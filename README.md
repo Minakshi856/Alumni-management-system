@@ -28,7 +28,8 @@ A full-stack Alumni Management System for connecting graduates, managing alumni 
   <tr>
     <td align="center" width="50%">
       <b>🏠 Home Page</b><br/><br/>
-      <img src="screenshots/home.png" width="100%" alt="AlumniConnect Home Page"/>
+      <img src="<img width="1919" height="865" alt="Screenshot 2026-10-15 152714" src="https://github.com/user-attachments/assets/23d5f6d8-28ab-47db-9edf-77aca2c25e67" />
+" width="100%" alt="AlumniConnect Home Page"/>
     </td>
     <td align="center" width="50%">
       <b>📊 Alumni Dashboard</b><br/><br/>
