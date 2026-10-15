@@ -22,32 +22,6 @@ Higher educational institutions face significant challenges in tracking graduate
 
 A full-stack Alumni Management System for connecting graduates, managing alumni profiles, organizing college events, and sharing career opportunities.
 
-## 📸 Project Screenshots
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b>🏠 Home Page</b><br/><br/>
-      <img src="<img width="1919" height="865" alt="Screenshot 2026-10-15 152714" src="https://github.com/user-attachments/assets/23d5f6d8-28ab-47db-9edf-77aca2c25e67" />
-" width="100%" alt="AlumniConnect Home Page"/>
-    </td>
-    <td align="center" width="50%">
-      <b>📊 Alumni Dashboard</b><br/><br/>
-      <img src="screenshots/dashboard.png" width="100%" alt="Alumni Dashboard"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <b>📅 Events Page</b><br/><br/>
-      <img src="screenshots/events.png" width="100%" alt="College Events"/>
-    </td>
-    <td align="center" width="50%">
-      <b>🔐 Login Page</b><br/><br/>
-      <img src="screenshots/login.png" width="100%" alt="Login Page"/>
-    </td>
-  </tr>
-</table>
-
 ## ✨ Features
 
 - Alumni registration and login
