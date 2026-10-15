@@ -18,6 +18,59 @@ Higher educational institutions face significant challenges in tracking graduate
 
 ---
 
+# 🎓 AlumniConnect — Alumni Management System
+
+A full-stack Alumni Management System for connecting graduates, managing alumni profiles, organizing college events, and sharing career opportunities.
+
+## 📸 Project Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <b>🏠 Home Page</b><br/><br/>
+      <img src="screenshots/home.png" width="100%" alt="AlumniConnect Home Page"/>
+    </td>
+    <td align="center" width="50%">
+      <b>📊 Alumni Dashboard</b><br/><br/>
+      <img src="screenshots/dashboard.png" width="100%" alt="Alumni Dashboard"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <b>📅 Events Page</b><br/><br/>
+      <img src="screenshots/events.png" width="100%" alt="College Events"/>
+    </td>
+    <td align="center" width="50%">
+      <b>🔐 Login Page</b><br/><br/>
+      <img src="screenshots/login.png" width="100%" alt="Login Page"/>
+    </td>
+  </tr>
+</table>
+
+## ✨ Features
+
+- Alumni registration and login
+- Alumni dashboard and profile management
+- College events and registrations
+- Career and job opportunities
+- Responsive user interface
+
+## 🛠️ Technologies Used
+
+- Frontend: React, HTML, CSS, JavaScript
+- Backend: Node.js, Express
+- Database: Add your actual database technology here
+
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Install dependencies.
+3. Configure environment variables.
+4. Start the backend and frontend.
+5. Open the local application URL.
+
+See the project setup instructions for details.
+
 ## 🎯 Objectives & Scope
 
 1. **Centralized Alumni Database**: Replace manual records with a structured PostgreSQL database maintaining verified alumni identities, departments, graduation years, and career history.
