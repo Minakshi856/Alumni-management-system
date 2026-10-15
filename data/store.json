@@ -1,0 +1,640 @@
+{
+  "users": [
+    {
+      "id": "a0000000-0000-0000-0000-000000000001",
+      "email": "admin@alumni.edu",
+      "password_hash": "$2a$10$H8AI2Q9BnosfcNPDFo/0DegAFIbCoXTChZPwUalCgKTLxyuMXeqfW",
+      "role": "admin",
+      "created_at": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000001",
+      "email": "rahul.sharma@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000002",
+      "email": "priya.patel@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000003",
+      "email": "ananya.iyer@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000004",
+      "email": "vikram.singh@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000005",
+      "email": "sneha.reddy@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000006",
+      "email": "arjun.mehta@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000007",
+      "email": "kavya.nair@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-11T00:00:00.000Z"
+    },
+    {
+      "id": "b0000000-0000-0000-0000-000000000008",
+      "email": "rohit.verma@alumni.edu",
+      "password_hash": "$2a$10$ECndJ0QO0n0Gq1v42fDh3uzIUe4qmjpjItkwaWFGfgm1HGHFtLdGO",
+      "role": "alumni",
+      "created_at": "2026-01-12T00:00:00.000Z"
+    }
+  ],
+  "alumni_profiles": [
+    {
+      "id": "c0000000-0000-0000-0000-000000000001",
+      "user_id": "b0000000-0000-0000-0000-000000000001",
+      "full_name": "Rahul Sharma",
+      "email": "rahul.sharma@alumni.edu",
+      "graduation_year": 2021,
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "current_company": "Google",
+      "job_title": "Senior Software Engineer",
+      "location": "Bengaluru, India",
+      "phone": "+91 98765 43210",
+      "linkedin_url": "https://linkedin.com/in/rahulsharma",
+      "github_url": "https://github.com/rahulsharma",
+      "portfolio_url": "https://rahulsharma.dev",
+      "bio": "Passionate about distributed systems, cloud architecture, and mentoring budding software engineers.",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "Java",
+        "Kubernetes",
+        "Go",
+        "GCP",
+        "System Design"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000002",
+      "user_id": "b0000000-0000-0000-0000-000000000002",
+      "full_name": "Priya Patel",
+      "email": "priya.patel@alumni.edu",
+      "graduation_year": 2020,
+      "department": "Information Technology",
+      "degree": "B.Tech",
+      "current_company": "Microsoft",
+      "job_title": "Product Manager",
+      "location": "Hyderabad, India",
+      "phone": "+91 98765 43211",
+      "linkedin_url": "https://linkedin.com/in/priyapatel",
+      "github_url": "https://github.com/priyapatel",
+      "portfolio_url": "https://priyapatel.pm",
+      "bio": "Leading product roadmaps for enterprise cloud solutions. Tech speaker and diversity advocate.",
+      "avatar_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "Product Strategy",
+        "Agile",
+        "UI/UX",
+        "Azure",
+        "Analytics"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000003",
+      "user_id": "b0000000-0000-0000-0000-000000000003",
+      "full_name": "Ananya Iyer",
+      "email": "ananya.iyer@alumni.edu",
+      "graduation_year": 2022,
+      "department": "Electronics & Communication",
+      "degree": "B.Tech",
+      "current_company": "Qualcomm",
+      "job_title": "Hardware Design Engineer",
+      "location": "Bengaluru, India",
+      "phone": "+91 98765 43212",
+      "linkedin_url": "https://linkedin.com/in/ananyaiyer",
+      "github_url": "https://github.com/ananyaiyer",
+      "portfolio_url": "",
+      "bio": "Designing next-generation 5G chipsets and RF modules. Robotics enthusiast.",
+      "avatar_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "VLSI",
+        "Verilog",
+        "Embedded C",
+        "RF Circuits",
+        "FPGA"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000004",
+      "user_id": "b0000000-0000-0000-0000-000000000004",
+      "full_name": "Vikram Singh",
+      "email": "vikram.singh@alumni.edu",
+      "graduation_year": 2019,
+      "department": "Mechanical Engineering",
+      "degree": "B.Tech",
+      "current_company": "Tesla",
+      "job_title": "Automation Engineer",
+      "location": "Berlin, Germany",
+      "phone": "+49 151 23456789",
+      "linkedin_url": "https://linkedin.com/in/vikramsingh",
+      "github_url": "https://github.com/vikramsingh",
+      "portfolio_url": "",
+      "bio": "Working on Gigafactory manufacturing automation and robotic assembly lines.",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "CAD/CAM",
+        "Robotics",
+        "SolidWorks",
+        "PLC Programming",
+        "Lean Mfg"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000005",
+      "user_id": "b0000000-0000-0000-0000-000000000005",
+      "full_name": "Sneha Reddy",
+      "email": "sneha.reddy@alumni.edu",
+      "graduation_year": 2023,
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "current_company": "Amazon AWS",
+      "job_title": "Cloud Solutions Architect",
+      "location": "Seattle, USA",
+      "phone": "+1 206 555 0192",
+      "linkedin_url": "https://linkedin.com/in/snehareddy",
+      "github_url": "https://github.com/snehareddy",
+      "portfolio_url": "",
+      "bio": "Building serverless microservices and high-availability multi-region backends.",
+      "avatar_url": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "AWS",
+        "Terraform",
+        "Python",
+        "Node.js",
+        "Docker"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000006",
+      "user_id": "b0000000-0000-0000-0000-000000000006",
+      "full_name": "Arjun Mehta",
+      "email": "arjun.mehta@alumni.edu",
+      "graduation_year": 2018,
+      "department": "Civil Engineering",
+      "degree": "B.Tech",
+      "current_company": "L&T Construction",
+      "job_title": "Senior Project Manager",
+      "location": "Mumbai, India",
+      "phone": "+91 98765 43215",
+      "linkedin_url": "https://linkedin.com/in/arjunmehta",
+      "github_url": "",
+      "portfolio_url": "",
+      "bio": "Managing metro rail infrastructure projects and smart city transit hubs.",
+      "avatar_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "Structural Engineering",
+        "AutoCAD",
+        "Primavera",
+        "BIM",
+        "Project Mgmt"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000007",
+      "user_id": "b0000000-0000-0000-0000-000000000007",
+      "full_name": "Kavya Nair",
+      "email": "kavya.nair@alumni.edu",
+      "graduation_year": 2024,
+      "department": "Electrical & Electronics",
+      "degree": "B.Tech",
+      "current_company": "Siemens Energy",
+      "job_title": "Grid Systems Engineer",
+      "location": "Pune, India",
+      "phone": "+91 98765 43216",
+      "linkedin_url": "https://linkedin.com/in/kavyanair",
+      "github_url": "",
+      "portfolio_url": "",
+      "bio": "Renewable energy integration, smart grids, and power converter designs.",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "Power Electronics",
+        "MATLAB",
+        "Simulink",
+        "Renewable Energy",
+        "SCADA"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-11T00:00:00.000Z"
+    },
+    {
+      "id": "c0000000-0000-0000-0000-000000000008",
+      "user_id": "b0000000-0000-0000-0000-000000000008",
+      "full_name": "Rohit Verma",
+      "email": "rohit.verma@alumni.edu",
+      "graduation_year": 2022,
+      "department": "Computer Science",
+      "degree": "B.Tech",
+      "current_company": "Zomato",
+      "job_title": "Full Stack Developer",
+      "location": "Gurugram, India",
+      "phone": "+91 98765 43217",
+      "linkedin_url": "https://linkedin.com/in/rohitverma",
+      "github_url": "https://github.com/rohitverma",
+      "portfolio_url": "",
+      "bio": "React, Next.js, and Node.js developer passionate about high-throughput food delivery systems.",
+      "avatar_url": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&auto=format&fit=crop&q=80",
+      "skills": [
+        "React",
+        "Next.js",
+        "PostgreSQL",
+        "Redis",
+        "TypeScript"
+      ],
+      "is_verified": true,
+      "status": "Active",
+      "created_at": "2026-01-12T00:00:00.000Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "d0000000-0000-0000-0000-000000000001",
+      "title": "Annual Grand Alumni Reunion 2026",
+      "description": "Welcome back to campus! Reconnect with batchmates, celebrate faculty milestones, and network during the gala dinner.",
+      "event_date": "2026-11-20",
+      "event_time": "05:00 PM IST",
+      "location": "Campus Main Auditorium & Lawns",
+      "event_type": "Reunion",
+      "capacity": 500,
+      "banner_url": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=800&auto=format&fit=crop&q=80",
+      "is_virtual": false,
+      "meeting_link": "",
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000002",
+      "title": "Tech Leadership & AI Revolution Webinar",
+      "description": "Industry leaders from Google, Microsoft, and Tesla share insights on Generative AI and career navigation for engineers.",
+      "event_date": "2026-10-28",
+      "event_time": "07:00 PM IST",
+      "location": "Online via Zoom",
+      "event_type": "Webinar",
+      "capacity": 1000,
+      "banner_url": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&auto=format&fit=crop&q=80",
+      "is_virtual": true,
+      "meeting_link": "https://zoom.us/j/alumniconnect-tech-ai",
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-01-20T00:00:00.000Z"
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000003",
+      "title": "Alumni Startup Pitch & Angel Investor Mixer",
+      "description": "Showcase your startup to alumni angel investors, venture capitalists, and entrepreneurial mentors.",
+      "event_date": "2026-12-05",
+      "event_time": "02:00 PM IST",
+      "location": "Incubation Center, Block C",
+      "event_type": "Networking",
+      "capacity": 150,
+      "banner_url": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&auto=format&fit=crop&q=80",
+      "is_virtual": false,
+      "meeting_link": "",
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "d0000000-0000-0000-0000-000000000004",
+      "title": "Global Alumni Mentorship Kickoff",
+      "description": "1-on-1 career mentorship bridging recent graduates and experienced alumni worldwide.",
+      "event_date": "2026-11-05",
+      "event_time": "06:30 PM IST",
+      "location": "Virtual Conference Room",
+      "event_type": "Workshop",
+      "capacity": 300,
+      "banner_url": "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=800&auto=format&fit=crop&q=80",
+      "is_virtual": true,
+      "meeting_link": "https://meet.google.com/alm-ment-2026",
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-02-10T00:00:00.000Z"
+    }
+  ],
+  "event_rsvps": [
+    {
+      "id": "rsvp-1",
+      "event_id": "d0000000-0000-0000-0000-000000000001",
+      "user_id": "b0000000-0000-0000-0000-000000000001",
+      "status": "Attending",
+      "created_at": "2026-02-15T00:00:00.000Z"
+    },
+    {
+      "id": "rsvp-2",
+      "event_id": "d0000000-0000-0000-0000-000000000001",
+      "user_id": "b0000000-0000-0000-0000-000000000002",
+      "status": "Attending",
+      "created_at": "2026-02-16T00:00:00.000Z"
+    },
+    {
+      "id": "rsvp-3",
+      "event_id": "d0000000-0000-0000-0000-000000000002",
+      "user_id": "b0000000-0000-0000-0000-000000000001",
+      "status": "Attending",
+      "created_at": "2026-02-17T00:00:00.000Z"
+    },
+    {
+      "id": "rsvp-4",
+      "event_id": "d0000000-0000-0000-0000-000000000003",
+      "user_id": "b0000000-0000-0000-0000-000000000004",
+      "status": "Attending",
+      "created_at": "2026-02-18T00:00:00.000Z"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "e0000000-0000-0000-0000-000000000001",
+      "title": "Senior Full Stack Engineer",
+      "company": "Google",
+      "location": "Bengaluru, India (Hybrid)",
+      "job_type": "Full-time",
+      "experience_level": "Senior (3-6 yrs)",
+      "salary_range": "₹35 - 55 LPA",
+      "description": "Join the core infrastructure team building next generation developer tooling and cloud interfaces.",
+      "requirements": "3+ years experience in React, Node.js or Go. Strong algorithms and system design skills.",
+      "apply_url": "https://careers.google.com/jobs/10293",
+      "contact_email": "rahul.sharma@alumni.edu",
+      "posted_by": "b0000000-0000-0000-0000-000000000001",
+      "status": "Active",
+      "created_at": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "id": "e0000000-0000-0000-0000-000000000002",
+      "title": "Associate Product Manager",
+      "company": "Microsoft",
+      "location": "Hyderabad, India",
+      "job_type": "Full-time",
+      "experience_level": "Entry/Mid (1-3 yrs)",
+      "salary_range": "₹22 - 32 LPA",
+      "description": "Drive specifications, customer discovery, and telemetry analysis for Azure Cloud Tools.",
+      "requirements": "B.Tech/BE in CS/IT/ECE. Passion for customer journeys, agile workflows, and data-driven prioritization.",
+      "apply_url": "https://careers.microsoft.com/apm",
+      "contact_email": "priya.patel@alumni.edu",
+      "posted_by": "b0000000-0000-0000-0000-000000000002",
+      "status": "Active",
+      "created_at": "2026-02-05T00:00:00.000Z"
+    },
+    {
+      "id": "e0000000-0000-0000-0000-000000000003",
+      "title": "Cloud DevOps & SRE Engineer",
+      "company": "Amazon Web Services",
+      "location": "Bengaluru / Remote",
+      "job_type": "Full-time",
+      "experience_level": "Mid-Level (2-4 yrs)",
+      "salary_range": "₹28 - 42 LPA",
+      "description": "Manage high-throughput AWS infrastructure, automated CI/CD pipelines, and observability.",
+      "requirements": "Hands-on experience with Terraform, Kubernetes, Docker, Prometheus, and Python/Bash scripting.",
+      "apply_url": "https://amazon.jobs/aws-sre",
+      "contact_email": "sneha.reddy@alumni.edu",
+      "posted_by": "b0000000-0000-0000-0000-000000000005",
+      "status": "Active",
+      "created_at": "2026-02-10T00:00:00.000Z"
+    },
+    {
+      "id": "e0000000-0000-0000-0000-000000000004",
+      "title": "Embedded Systems Firmware Intern",
+      "company": "Qualcomm",
+      "location": "Bengaluru, India",
+      "job_type": "Internship",
+      "experience_level": "Fresh Graduate / Student",
+      "salary_range": "₹45,000 / month stipend",
+      "description": "Work alongside senior chip designers on ARM microcontrollers and low-level firmware drivers.",
+      "requirements": "Strong proficiency in C/C++, microcontroller architecture, I2C, SPI, UART protocols.",
+      "apply_url": "https://qualcomm.com/internships",
+      "contact_email": "ananya.iyer@alumni.edu",
+      "posted_by": "b0000000-0000-0000-0000-000000000003",
+      "status": "Active",
+      "created_at": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "id": "e0000000-0000-0000-0000-000000000005",
+      "title": "Robotics & Automation Specialist",
+      "company": "Tesla Gigafactory",
+      "location": "Berlin, Germany",
+      "job_type": "Full-time",
+      "experience_level": "Senior (4+ yrs)",
+      "salary_range": "€75,000 - €95,000",
+      "description": "Lead robotic cell integration, cycle time reduction, and preventative automation maintenance.",
+      "requirements": "Degree in Mechanical or Mechatronics Engineering. Experience in Fanuc/KUKA robotics and PLC.",
+      "apply_url": "https://tesla.com/careers/rob-berlin",
+      "contact_email": "vikram.singh@alumni.edu",
+      "posted_by": "b0000000-0000-0000-0000-000000000004",
+      "status": "Active",
+      "created_at": "2026-02-15T00:00:00.000Z"
+    }
+  ],
+  "job_applications": [
+    {
+      "id": "2e04719b-72d8-4b2b-a4f3-dc0de2f4949e",
+      "job_id": "13595fd1-a4f5-472a-9563-0a83a0718685",
+      "user_id": "b0000000-0000-0000-0000-000000000001",
+      "applicant_name": "Rahul Sharma",
+      "applicant_email": "rahul.sharma@alumni.edu",
+      "applicant_phone": "+91 98765 43210",
+      "resume_url": "https://linkedin.com/in/rahulsharma",
+      "cover_note": "Excited about this opening!",
+      "status": "Submitted",
+      "applied_at": "2026-10-15T09:44:05.446Z"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "f0000000-0000-0000-0000-000000000001",
+      "title": "Alumni Endowment Fund reaches ₹2.5 Crores!",
+      "category": "Achievement",
+      "content": "Thanks to generous contributions from our worldwide alumni network, the 2026 Student Scholarship and Innovation Fund has surpassed ₹2.5 Crores. Over 50 deserving students have received merit-cum-need financial grants.",
+      "is_pinned": true,
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-02-20T00:00:00.000Z"
+    },
+    {
+      "id": "f0000000-0000-0000-0000-000000000002",
+      "title": "Registrations Open for Annual Reunion 2026",
+      "category": "Campus",
+      "content": "We are delighted to welcome back all batches for the Grand Alumni Meet on November 20, 2026. Special batch anniversary felicitations for batches of 2016, 2020, and 2021. Register now under Events!",
+      "is_pinned": true,
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-02-22T00:00:00.000Z"
+    },
+    {
+      "id": "f0000000-0000-0000-0000-000000000003",
+      "title": "Alumni Mentorship Program 2026-2027 Launched",
+      "category": "News",
+      "content": "Are you willing to mentor a pre-final or final year student for 1 hour every fortnight? Update your profile skills or reach out through the networking portal.",
+      "is_pinned": false,
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-02-25T00:00:00.000Z"
+    },
+    {
+      "id": "f0000000-0000-0000-0000-000000000004",
+      "title": "New Incubation & Research Wing Inaugurated",
+      "category": "Campus",
+      "content": "The college is proud to announce the opening of the State-of-the-Art AI & Hardware Innovation Wing sponsored partly by alumni corporate partners.",
+      "is_pinned": false,
+      "created_by": "a0000000-0000-0000-0000-000000000001",
+      "created_at": "2026-02-28T00:00:00.000Z"
+    }
+  ],
+  "activity_logs": [
+    {
+      "id": "22a03ee3-a3c8-4372-ab65-ac1f16be9b55",
+      "user_name": "Administrator",
+      "action": "Deleted Announcement",
+      "target": "a5b611e3-774f-43cc-a16f-56a49bcf6b72",
+      "created_at": "2026-10-15T09:44:05.599Z"
+    },
+    {
+      "id": "ae63b48a-8037-48aa-b3f1-aefd08a530c9",
+      "user_name": "Administrator",
+      "action": "Deleted Job Posting",
+      "target": "13595fd1-a4f5-472a-9563-0a83a0718685",
+      "created_at": "2026-10-15T09:44:05.559Z"
+    },
+    {
+      "id": "8debbb65-64d4-4131-a0e1-30350e5dd914",
+      "user_name": "Administrator",
+      "action": "Deleted Event",
+      "target": "e20f936f-e79e-42cf-8707-a89b2ccb84bc",
+      "created_at": "2026-10-15T09:44:05.538Z"
+    },
+    {
+      "id": "15e3b211-e6b9-4fd4-8d5d-ae0ab8190f0b",
+      "user_name": "Administrator",
+      "action": "Deleted Alumni Record",
+      "target": "Test Alumnus Engineer",
+      "created_at": "2026-10-15T09:44:05.514Z"
+    },
+    {
+      "id": "a0159a59-1d3c-4a88-ad1e-be110be26749",
+      "user_name": "Administrator",
+      "action": "Published Announcement",
+      "target": "Campus Hackathon 2026 Winners Announced",
+      "created_at": "2026-10-15T09:44:05.487Z"
+    },
+    {
+      "id": "74510c72-de56-46a5-8810-a315a818bd37",
+      "user_name": "Rahul Sharma",
+      "action": "Applied for Job",
+      "target": "Job ID: 13595fd1-a4f5-472a-9563-0a83a0718685",
+      "created_at": "2026-10-15T09:44:05.452Z"
+    },
+    {
+      "id": "9abc0173-d36f-4fa8-8328-ef846147ef49",
+      "user_name": "Rahul Sharma",
+      "action": "Posted Job Opening",
+      "target": "Cloud Architect Test Position at Antigravity Tech",
+      "created_at": "2026-10-15T09:44:05.421Z"
+    },
+    {
+      "id": "08ade913-94b2-4334-aff6-5e8fbf885b33",
+      "user_name": "Rahul Sharma",
+      "action": "RSVP Attending",
+      "target": "Event ID: e20f936f-e79e-42cf-8707-a89b2ccb84bc",
+      "created_at": "2026-10-15T09:44:05.394Z"
+    },
+    {
+      "id": "7b0ece12-db3c-4543-b4ac-a67e4edd8da2",
+      "user_name": "Administrator",
+      "action": "Created Event",
+      "target": "Automated Test Alumni Meet 2026",
+      "created_at": "2026-10-15T09:44:05.357Z"
+    },
+    {
+      "id": "b56f70ac-3210-49a3-846d-29c57a0bda18",
+      "user_name": "Administrator",
+      "action": "Updated Alumni Status",
+      "target": "Test Alumnus Engineer (Active)",
+      "created_at": "2026-10-15T09:44:05.322Z"
+    },
+    {
+      "id": "5378584b-8629-463e-8564-257408cc21d9",
+      "user_name": "Administrator",
+      "action": "Updated Profile",
+      "target": "Test Alumnus Engineer",
+      "created_at": "2026-10-15T09:44:05.284Z"
+    },
+    {
+      "id": "1c2265df-4432-49ad-9f79-6449d38914cd",
+      "user_name": "Administrator",
+      "action": "Added Alumni Record",
+      "target": "Test Alumnus Engineer",
+      "created_at": "2026-10-15T09:44:05.244Z"
+    },
+    {
+      "id": "act-1",
+      "user_name": "System Admin",
+      "action": "Created Event",
+      "target": "Annual Grand Alumni Reunion 2026",
+      "created_at": "2026-02-25T10:30:00.000Z"
+    },
+    {
+      "id": "act-2",
+      "user_name": "Rahul Sharma",
+      "action": "Posted Job",
+      "target": "Senior Full Stack Engineer at Google",
+      "created_at": "2026-02-24T14:15:00.000Z"
+    },
+    {
+      "id": "act-3",
+      "user_name": "Priya Patel",
+      "action": "Updated Profile",
+      "target": "Promoted to Product Manager at Microsoft",
+      "created_at": "2026-02-23T09:45:00.000Z"
+    },
+    {
+      "id": "act-4",
+      "user_name": "Sneha Reddy",
+      "action": "Registered Account",
+      "target": "Batch of 2023 - Computer Science",
+      "created_at": "2026-02-22T16:20:00.000Z"
+    },
+    {
+      "id": "act-5",
+      "user_name": "Vikram Singh",
+      "action": "RSVP Attending",
+      "target": "Annual Grand Alumni Reunion 2026",
+      "created_at": "2026-02-21T11:00:00.000Z"
+    }
+  ]
+}
